@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ZT-Test';
+
+  selectedSidebar = '';
+
+  sidebarItemClick(sidebarTitle:any){
+   console.log(sidebarTitle); 
+   this.selectedSidebar = sidebarTitle;
+  }
 }
