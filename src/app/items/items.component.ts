@@ -12,9 +12,5 @@ export class ItemsComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
-  items1Array:ItemsModal[]=[
-    {icons:'./assets/icons.png',title:'icon'},
-  ];
   
 }
