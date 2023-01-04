@@ -2,38 +2,39 @@ app-items {
     margin-left: 0%;
  }
  i {
-    font-size: 20px;
+   margin-left: 10px;
+    font-size: 24px;
     color: #0C747E;
     list-style: none;
  }
- .d-flex {
-    margin-left: 620%;
- }
- .d-flex i {
-    margin-left: 25px;
-    font-size: 22px;
- }
+ 
  a:hover {
     cursor: pointer;
  }
  .savebtn {
     margin-left: 550%;
-   margin-top: 100px;
+   margin-top: 80px;
    cursor: pointer;
  }
  .dropdown-toggle{
    color:#0C747E;
    cursor: pointer;
  }
-.iteraction{
-   margin-left: 8px;
+
+::placeholder{
+   font-size: 14px;
+   font-weight: 600;
 }
+.dropdown-menu{
+   margin-top: 50px;
+}
+
 .col-md-5 span{
    color: rgb(231, 15, 15);
    font-size: 18px;
 }
  span{
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
     color: #0C747E;
  }
@@ -42,12 +43,15 @@ app-items {
    color: #FFFFFF;
  }
  .card{
-    margin-top: 120px;
+    margin-top: 100px;
     margin-left: 480px;
     height: 220px;
     border: 2.2px  solid #0C747E;
+    border-radius: 15px;
  }
-
+ul{
+   margin-top: 50px;
+}
  .icon:hover{
    cursor: pointer;
  }
