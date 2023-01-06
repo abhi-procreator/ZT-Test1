@@ -9,8 +9,8 @@ import { ItemsModal } from './modal/items.modal';
 export class ItemsComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit(): void {
   }
+
   
 }

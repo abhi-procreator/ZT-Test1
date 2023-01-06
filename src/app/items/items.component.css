@@ -2,7 +2,7 @@ app-items {
     margin-left: 0%;
  }
  i {
-   margin-left: 10px;
+   margin-left: 0px;
     font-size: 24px;
     color: #0C747E;
     list-style: none;
@@ -12,22 +12,29 @@ app-items {
     cursor: pointer;
  }
  .savebtn {
-    margin-left: 550%;
-   margin-top: 80px;
+    margin-left: 605%;
+   margin-top: 138px;
    cursor: pointer;
  }
  .dropdown-toggle{
    color:#0C747E;
    cursor: pointer;
  }
+ .dropdown-toggle{
+ margin-top: 0px;
+ }
+ .down-icons{
+   margin-left: 30px;
+   margin-right: 30px;
+ }
 
 ::placeholder{
    font-size: 14px;
    font-weight: 600;
 }
-.dropdown-menu{
-   margin-top: 50px;
-}
+/* .dropdown-menu{
+   margin-top: 40px;
+} */
 
 .col-md-5 span{
    color: rgb(231, 15, 15);
@@ -43,8 +50,8 @@ app-items {
    color: #FFFFFF;
  }
  .card{
-    margin-top: 100px;
-    margin-left: 480px;
+    margin-top: 65px;
+    margin-left: 450px;
     height: 220px;
     border: 2.2px  solid #0C747E;
     border-radius: 15px;
@@ -88,4 +95,24 @@ ul{
     visibility: visible;
     opacity: 1;
  }
- 
+ select,option{
+   margin: 10px 12px;
+   padding: 5px 14px;
+   color: #0C747E;
+   font-size: 14px;
+   font-weight: 700;
+   border: 2px solid #0C747E;
+ }
+ .col-md-12{
+   margin-left: 10px;
+ }
+ .col-md-3{
+   padding-left: 24px;
+ }
+
+ .perfect{
+   margin-top: 0px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+   font-size: 50px;
+}
